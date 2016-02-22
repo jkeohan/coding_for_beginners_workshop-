@@ -452,7 +452,7 @@
 						<ul>
 							<li>Functions are a set of instructions that take input, do calculations on that input, and return a result.</li>
 							<li>"Functions" ~ "Commands" ~ "Methods"</li>
-							<li>"Parameters" ~ "Input" ~ "Info"</li>
+							<li>"Parameters" ~ "Input" ~ "Arguments"</li>
 							<li class="fragment">Parameters represent information or data you give to a function</li>
 							<li class="fragment">Example: f(x) = 2x + 4</li>
 							<li class="fragment">Sometimes, functions don't accept parameters</li>
@@ -569,7 +569,6 @@
 
 					<p>Describe the relationship between HTML/CSS</p>
 					<p>Construct a basic HTML page and style with basic CSS selectors</p>
-					<p class="fragment">To the terminal!</p>
 				</section>
 
 				<section>
@@ -593,10 +592,15 @@
 				</section>
 
 				<section>
+					<h2>Here's a neat trick for finding pics</h2>
+					<p>Pull up your LinkedIn...</p>
+				</section>
+
+				<section>
 					<h2>Now, with a partner:</h2>
 					<p>Use the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN docs</a></p>
 					<ul>
-						<li>Insert a professional image of you ('img' tag)</li>	
+						<li>Insert a professional image of you ('img' tag); make it right after your 'h1' tags</li>	
 						<li>Insert an ordered list of your last three positions ('ul' tag)</li>
 						<li>Link out to your LinkedIn and Facebook/Twitter pages ('a' tag)</li>
 						<li>Bonus: Insert your favorite YouTube video ('iframe' tag)</li>
@@ -662,6 +666,13 @@
 				</section>
 
 				<section>
+					<h2>What about multiple columns?</h2>
+						<p>Well, that just means that our boxes will want to "sit next to each other"</p>
+						<p>By default, all HTML elements (boxes) take up the entire width of the page</p>
+						<p class="fragment">Take a look inside your chrome dev tools</p>
+				</section>
+
+				<section>
 					<h2>Now, on your own:</h2>
 					<p>Use the <a href="https://developer.mozilla.org/en-US/docs/Web/css">MDN docs</a></p>
 					<ul>
@@ -685,17 +696,30 @@
 
 				</section>
 
+				<section>
+					<h2>What is Git?</h2>
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDSYNiK9LZNmljFVhMlqt0nPVir1ttyM0xzwh59EMfZL-SAn-iEyS2yPw">
+					<ul>
+						<li>Who's familiar with the "See Version History" functionality in Google Docs?</li>
+						<li class="fragment">Git is software that allows you to do this for <strong>any folder</strong> you'd like on your computer</li>
+					</ul>
+				</section>
 
 
 				<section>
 					<h2>What is Git?</h2>
 					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDSYNiK9LZNmljFVhMlqt0nPVir1ttyM0xzwh59EMfZL-SAn-iEyS2yPw">
 					<ul>
-						<li>Think Microsoft Office in 1999 - but with "version history" from GoogleDocs</li>
 						<li>Code manager or "version control software"</li>
 						<li>It's super smart</li>
 						<li>The real benefit is when you're working in teams...but let's ignore that for now</li>
 					</ul>
+				</section>
+
+				<section>
+					<h2>Vocab</h2>
+					<p>Repo/Repository - folder (project) being tracked by Git</p>
+
 				</section>
 
 				<!--  -->
@@ -703,7 +727,7 @@
 				<section>
 					<h2>Let's try it!</h2>
 					<ul>
-						<li><pre><code>cd</code></pre> into your resume directory and lets track this project!</li>
+						<li>Move back into your resume directory and lets track this project!</li>
 						<li>This adds git to your directory: <pre><code>git init</code></pre></li>
 						<li>This shows you what the files that have been changed but have not been "versioned":<pre><code>git status</code></pre> </li>
 					</ul>
@@ -712,8 +736,9 @@
 				<section>
 					<h2>Let's try it!</h2>
 					<ul>
-						<li>Adds your files as "ready to be saved" (committed): <pre><code>git add .</code></pre> </li>
-						<li>Commits (saves) files to the git timeline or version history:<pre><code>git commit -m 'INSERT A MESSAGE'</code></pre> </li>
+						<li>Adds your files as to "the stage": <pre><code>git add .</code></pre> </li>
+						<li>Commits (saves) a version of the files to the version history:<pre><code>git commit -m 'INSERT A MESSAGE'</code></pre> </li>
+						<li class="fragment">MAKE SURE YOU INCLUDE A MESSAGE!!!!</li>
 					</ul>
 				</section>
 
@@ -733,7 +758,7 @@
 					<p>With Git, nothing is lost (if you do it right!)</p>
 					<p>Let's check it out:</p>
 					<ul>
-						<li>I'm going to break everything in my resume...</li>
+						<li>I'm going to ruin my resume...</li>
 						<li class="fragment">Then I'm going to fix it</li>
 					</ul>
 				</section>
@@ -756,76 +781,37 @@
 					<h2>If you haven't already, let's take a second to sign up for GitHub</h2>
 					<ul>
 						<li>If you've configured your machine, to prevent problems, use the same email/username you used for your git configurations</li>
-						<li class="fragment">Now, let's create a project so that our resume will be live for everyone to see!</li>
+						<li class="fragment">Now, let's create a repo on GitHub so that our resume will be live for everyone to see!</li>
 						<li class="fragment">GITHUB-USERNAME.github.io</li>
 						<li class="fragment">ex: jnappy.github.io</li>
+						<li class="fragment">Now, follow the directions it provides to "sync" your local repo with your GitHub repo</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>Let's take a look at a GitHub project</h2>
-					<p>https://github.com/plataformatec/devise</p>
-				</section>
+					<h2>Refresh the page!</h2>
 
-				<section>
-					<h2>Your turn!</h2>
-						<p>https://github.com/ryanb/cancan</p>
-						<ul>
-							<li>What version are they up to?</li>
-							<li>Which user is the second-greatest contributor to this repository?</li>
-							<li>How many commits were made on September 6th?</li>
-							<li>On the January 20, 2013 commit:</li>
-							<ul>
-								<li>How many files were modified? </li>
-								<li>How many lines were added? </li>
-								<li>How many lines were deleted? </li>
-								<li>What are the names of the files that were modified?</li>
-							</ul>
-
-						</ul>
 				</section>
 
 
 				<section>
-					<h2>Why is GitHub so special for teams?</h2>
+					<h2>One more time - Do this with me!</h2>
 					<ul>
-						<li>Let's look a few slides visualizing this</li>
-					</ul>
-				</section>
-
-
-				<section>
-					<h2>Let's look at a visualization of this</h2>
-					<p></p>
-
-				</section>
-				<!--  -->
-
-				<section>
-					<h2>Watch me, now.</h2>
-					<ul>
-						<h2>Watch me now!</h2>
-						<li>I will add some changes to my blog</li>
-						<li class="fragment">Then I'll commit those change</li>
-						<li class="fragment">Then I'll push those change to <a href="github.com">GitHub.com by creating a new project</a></li>
+						<li>Add a small change to your resume</li>
+						<li class="fragment">Then, commit that change</li>
+						<li class="fragment">Then, push that change to your <a href="github.com">GitHub.com</a> repository.</li>
 						<br>
 					</ul>
 				</section>
 
 				<section>
-					<ul>
-					<h2 class="fragment">Watch you, now.</h2>
-						<li class="fragment">Then you will "fork" my changes, so you have them on GitHub</li>
-						<li class="fragment">Then you create a new folder (why?), and "clone" that GitHub repository</li>
-						<li class="fragment">...and follow the instructions from GitHub</li>
-						<pre class="fragment"><code>git clone YOUR_URL@github.com</code></pre>
-					</ul>
+					<h2>Let's take a look at a GitHub project</h2>
+					<p>What kind of information does GitHub show us on its web interface?</p>
+					<p>https://github.com/plataformatec/devise</p>
 				</section>
 
-
 				<section>
-
-					<h2>Your turn!</h2>
+					<h2>Get Familiar with GitHub!</h2>
 						<p>https://github.com/ryanb/cancan</p>
 						<ul>
 							<li>What version are they up to?</li>
@@ -838,8 +824,12 @@
 								<li>How many lines were deleted? </li>
 								<li>What are the names of the files that were modified?</li>
 							</ul>
+
+						</ul>
 				</section>
 
+				
+<!-- 
 				<section>
 
 					<h2>Practice Editing Copy</h2>
@@ -850,7 +840,7 @@
 
 
 				</section>
-
+ -->
 
 				<!--  -->
 
@@ -866,7 +856,6 @@
 					<ul>
 						<li>How do clients work with hosts?</li>
 						<li>Explain the difference between how the command line handles a response vs. a browser.</li>
-						<li>Gary is a co-worker working on a side-project and asked me to help - what should Gary do and what should I do to make sure I can edit Gary's code on my computer?</li>
 					</ul>
 				</section>
 
@@ -1018,11 +1007,6 @@
 
 				<!--  -->
 
-				<section>
-					<h2>Let's get down and write some code.</h2>
-					<p>Code along!  Strings & Integers</p>
-					<img src="http://www.redcanary.ca/wp-content/uploads/2013/02/Do-you-even-code-bro.jpg">
-				</section>
 
 				<!--  -->
 
@@ -1068,35 +1052,74 @@
 
 				<section>
 					<h2>Let's practice together!</h2>
-					<p>Methods code along</p>
+					<p>Create a method that replaces every "e" in a word with "z"</p>
+					<p>Then, call the method with the word "Excellenet"</p>
 				</section>
 
 				<!--  -->
 
 				<section>
 					<h2>Running Ruby Code</h2>
-					<p>To run a ruby file, move into the directory your ruby file is in and type:</p>
-					<pre><code>ruby FILE_NAME.rb</code></pre>
-					<p>Watch, as I move my code along code into a ruby file and run it from the terminal to get the same output.</p>
-					<p class="fragment">Let's explain how this relates to req/resp - to the board!.</p>
+					<p>To run this ruby code from a file, let's create a ruby file called "no-more-e.rb":</p>
+					<p>Rewrite the code in the file</p>
+					<p>Run the file with:<pre><code>ruby FILE_NAME.rb</code></pre></p>
 				</section>
 
-				<!--  -->
+					<section>
+					<h2>Back to GitHub...</h2>
+						<p>Why is GitHub so special for teams?</p>
+					<ul>
+						<li>Let's draw this out...</li>
+					</ul>
+				</section>
+<!-- github slide -->
+				<section>
+					<h2>A nice slide to tie it all together:</h2>
+					<img src="https://i.imgur.com/07OiOrs.png">
+					<p>I'll chat this out: https://i.imgur.com/07OiOrs.png</p>
+				</section>
 
 				<section>
-					<h2>You try it!</h2>
-					<p>Refactor the code along code (I'll chat it out in a gist in tlk.io) to ask the user for the story name and the number of likes for the story - store that data two variables. </p>
+					<h2>Try forking a project with me!</h2>
+					<p>https://github.com/ryanb/cancan</p>
+
 				</section>
 
-				<!--  -->
+				<section>
+					<ul>
+					<h2 class="fragment">Your turn!</h2>
+						<li class="fragment">"Fork" the methods exercise (story-likes), so you have a copy of it on GitHub</li>
+						<li class="fragment">Then "clone" that GitHub repository</li>
+						<pre class="fragment"><code>git clone YOUR_URL@github.com</code></pre>
+						<li>Now, move into that project (folder) and open it to start working!</li>
+						<li>When your finished: add, commit, and push!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Submitting a pull request</h2>
+					<p>To the GitHub diagram!</p>
+				</section>
+
+				<section>
+					<h2>I need a brave volunteer to jump on the big screen :)</h2>
+					<p>Let's see how to submit a pull request using GitHub's interface</p>
+				</section>
+
+				<section>
+					<h2>What information can I see in the Pull Request?</h2>
+					<p>Lets take a look...eventually, we'll merge!</p>
+				</section>
+ 
+				<!-- DAY TWO? -->
 
 				<section>
 					<section>
 					<h2>Welcome back!</h2>
 						<p>First, but first HTTPS</p>
 						<p>Let's get our brains going!</p>
-						<!-- <p>(Jay, reveal/day_2_opening.part1.rb)</p> -->
-						<p>https://github.com/jnappy/day-two-kickoff</p>
+						<p>First, with a partner, describe how clients work with hosts.  Use the vocabulary I write on the board.</p> 
+						<p class="fragment">Then, https://github.com/jnappy/day-two-kickoff</p>
 						<p>Check tlk.io for the kickoff assignment.</p>
 						<img src="http://i3.kym-cdn.com/photos/images/original/000/288/697/3fa.jpg">
 					</section>
@@ -1275,20 +1298,30 @@
 					</ul>
 				</section>
 
-					<section>
+				<section>
 					<h2>Why are collections awesome?</h2>
 					<p>We can "iterate" over them!</p>
 					<p>read: "we can do something to each element in a collections of data"</p>
 					<ul>
-						<li>Let's take our class array and do something to each element in it</li>
+						<li>To the whiteboard: Let's take an array of names and check to see if the letter 'j' is in each element of the array</li>
 					</ul>
+				</section>
+
+				<section>
+					<h2>Your turn!</h2>
+					<p>Create an array of your own names and for each item in the array, replace the the letter 'e' with a different letter</p>
 				</section>
 
 				<section>
 					<h2>Arrays within arrays</h2>
 					<pre><code>sign_ins = [["jpnappy@gmail.com", "3:02pm"], ["tylernappy@gmail.com", "3:03pm"], ["rob@gmail.com", "3:05pm"], ["lorit@gmail.com", "3:06pm"], ["laura@gmail.com", "3:07pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["dan@gmail.com", "3:05pm"]</code></pre>
 					<p class="fragment">Let's look at this in a text editor</p>
-					<p class="fragment">Now, let's get a list of all the user's email addresses</p>
+					<p class="fragment">You're turn: Iterate over each of the sign_ins and print out each of the user's email addresses</p>
+				</section>
+
+				<section>
+					<h2>Your turn!</h2>
+					<p>Create an array of your own names and replace the a vowel with a different letter</p>
 				</section>
 
 				<section>
@@ -1422,7 +1455,7 @@
 						<li>get the last tag of the second blog post</li>
 						<li>iterate over each blog post and print out the author's first name</li>
 						<li>iterate over each blog post and print out just the author's full name name</li>
-						<li>iterate over each blog post and print out the title, the author, and the tags associated with it</li>
+						<li>BONUS: iterate over each blog post and print out the title, the author, and the tags associated with it</li>
 					</ol>
 				</section>
 
