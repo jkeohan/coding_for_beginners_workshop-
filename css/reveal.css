@@ -1175,3 +1175,7 @@ body {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+#all-users-p {
+  margin-right: 680px; 
+}

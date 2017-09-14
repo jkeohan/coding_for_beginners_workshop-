@@ -65,15 +65,16 @@
 
 				<section>
 
-					<h1>PFNP</h1>
-					<p>
-						Jay Nappy
-						<br>
-						jay@ga.co
-					</p>
-					<p><u>Mac Users:</u> visit the App Store and download "Xcode"</p>
-					<p><u>PC Users:</u> visit Google and find/download "Git Bash"</p>
-					<p><u>All Users:</u> visit Google and find/download "Sublime Text Editor"; also, visit tlk.io/coding to get access to our class' chat app</p>
+					<h1>Coding 101</h1>
+					<!-- <p><u>Mac Users:</u> visit the App Store and download "Xcode"</p> -->
+					<!-- <p><u>PC Users:</u> visit Google and find/download "Git Bash"</p> -->
+					<p id="all-users-p"><u>All Users:</u></p> 
+					<ul>
+						<li>visit Google and find/download "Sublime Text Editor"</li>
+						<li>also, visit tlk.io/coding to get access to our class' chat app</li>
+						<li>make sure you have Chrome installed!</li>
+
+					</ul>	
 				</section>
 
 				<!-- PART 1: HOW THE INTERNET WORKS -->
@@ -95,8 +96,8 @@
 					<p>
 						<li>How the Internet works</li>
 						<li>Basic HTML/CSS</li>
-						<li>How to talk to your operating system...like a developer</li>
-						<li>Version control and why it's important</li>
+						<!-- <li>How to talk to your operating system...like a developer</li>
+						<li>Programming fundamentals in JavaScript</li> -->
 						
 
 					</p>
@@ -144,6 +145,7 @@
 						<li>Ask questions</li>
 						<li>Google is your friend</li>
 						<li>We will hit errors</li>
+						<li>PC users, bear with me :)</li>
 					</ul>
 				</section>
 
@@ -157,8 +159,8 @@
 					<h2>Goals</h2>
 						<ul>
 							<li>Have confidence in your ability to troubleshoot and learn on your own</li>
-							<li>Understand the constraints of programming</li>
-							<li>Compare tools developers use</li>
+							<li>Understand the constraints of HTML/CSS</li>
+							<li>Compare certain tools developers use</li>
 						</ul>
 				</section>
 
@@ -168,16 +170,15 @@
 					<h2>Who am I?</h2>
 					<h4>Currently?</h4>
 					<ul>
-						<li>Senior Instructional Deigner - GA, Campus Tech Courses</li>
-						<li>Contract Web Developer - <a href="krossoverkredit.com">KrossoverKredit.com</a>, EssayManager, KrossoverLeaderboard.com</li>
+						<li>Manager, Enterprise Programs - GA</li>
+						<li>Contract Web Developer - <a href="http://www.krossoverkredit.com/users/sign_in">KrossoverKredit</a></li>
 					</ul>
 					<br>
 					<br>
 					<h4>Previously?</h4>
-						<li>BiologyTeacher</li>
-						<li>RegentsHelp.com</li>
-						<li>Tech Sales</li>
-						<li>Events</li>
+						<p>Product Manager - GA</p>
+						<p>Product Manager - Instructional Design, Lead</p>
+						<p>Biology Teacher, RegentsHelp.com, Tech Sales</p>
 
 				</section>
 
@@ -185,7 +186,7 @@
 
 				<section>
 					<h2>Who are you?</h2>
-					<p>Tell us your first name and one sentence about why you're taking the course.</p>
+					<!-- <p>Tell us your first name and <bold>one sentence</bold> about why you're taking the course.</p> -->
 
 
 				</section>
@@ -200,14 +201,14 @@
 
 				<section>
 					<h2>We're ready!!!</h2>
-					<img src="http://jokideo.com/wp-content/uploads/meme/2014/09/Why-are-frogs-so-happy---meme.jpg">
+					<img src="http://www.relatably.com/m/img/get-ready-memes/evb6wk.jpg">
 				</section>
 
 				<!--  -->
 
 				<section>
-					<h2>Objectives: How the internet works</h2>
-						<p>Describe how clients work with servers to deliver information.</p>
+					<h2>How the internet works</h2>
+						<p>Objective: Describe how clients work with servers to deliver information.</p>
 				</section>
 
 
@@ -266,7 +267,7 @@
 				<section>
 					<h2>Hosts - Servers</h2>
 
-					<img src="https://www.securecommobile.com/wp-content/uploads/2014/03/Server-room-interior.jpg">
+					<img src="http://www.lukecjdavis.com/wp-content/uploads/2014/01/server-room.jpg">
 
 
 				</section>
@@ -295,44 +296,40 @@
 
 				<!--  -->
 
+
+
 				<section>
+					<h2>Clients</h2>
+					<p>Web Browsers</p>
 
-					<section>
-						<h2>Clients</h2>
-						<p>Web Browsers</p>
+						<img src="http://chromespot.com/wp-content/uploads/2013/09/chrome-update-2.png">
 
-							<img src="http://chromespot.com/wp-content/uploads/2013/09/chrome-update-2.png">
+				</section>
 
-					</section>
+				<section>
+					<h2>Clients</h2>
+					<p>Terminals</p>
 
-					<section>
-						<h2>Clients</h2>
-						<p>Terminals</p>
-
-							<img src="http://i0.wp.com/www.mikebeas.com/wordpress/wp-content/uploads/2014/06/terminal.png?fit=960%2C960">
+						<img src="http://i0.wp.com/www.mikebeas.com/wordpress/wp-content/uploads/2014/06/terminal.png?fit=960%2C960">
 
 
-					</section>
+				</section>
 
-					<section>
-						<h2>Clients</h2>
-						<p>SQL Programs like Workbench and PGAdmin</p>
-
-							<img src="http://docs.aws.amazon.com/redshift/latest/mgmt/images/connect-cluster-query-result-55.png">
-
-					</section>
+				
 
 					<!--  -->
 
 					<section>
 						<h2>Practice with the Terminal as a request client</h2>
-						<p>Open your terminal, and type in the following request:</p>
+						<p>Open your terminal (or Git Bash on a PC), and type in the following request:</p>
 
 							<pre><code data-trim>
 								curl http://www.krossoverkredit.com/users/sign_in
 							</code></pre>
 
 						<p>cURL stands for 'Client URL Request Library'</p>
+
+						<p class="fragment">What was returned to us? How do you know?</p>
 
 					</section>
 
@@ -343,14 +340,15 @@
 
 				<!--  -->
 
-
-
 				<section>
 					<h2>Let's practice with a more popular client: the browser</h2>
 					<p>But before we do, let's answer the following questions in pairs:</p>
 					<ol>
-						<li>Do you think the request format different in a browser? Why or why not?</li>
+						<li>What best describes the format of a request?</li>
+						<li>Do you think the format of the request is different in a browser than a terminal? Why or why not?</li>
+						<li>Do you think the format the response will be different than a terminal? Why or why not?</li>
 						<li>What do you think makes a browser client so special in the way it handles responses?</li>
+
 					</ol>
 
 				</section>
@@ -362,15 +360,69 @@
 					<h2>Practice with the Chrome browser client</h2>
 					<p>Open up Chrome and type in 'http://www.krossoverkredit.com/users/sign_in'</p>
 					<p>Keep in mind, this is the same request and same response, so remember what makes response handling different!</p>
+					<p class="fragment">Let's open the dev tools and "inspect" our response</p>
 				</section>
+
+				<section>
+					<h2>So what do we get back in a request? </h2>
+					<p>1. HTML - Hyper Text Markup Language</p>
+					<p>Let's look at the very first webpage ever...</p>
+				</section>
+
+				<section>
+					<h2>So what do we get back in a request? </h2>
+					<p>1. HTML - Hyper Text Markup Language</p>
+					<p>2. CSS - Cascading Style Sheets</p>
+					<p>Let's look back at our response from krossoverkredit.com...</p>
+				</section>
+
+				<section>
+					<h2>What else do we get back in a request? </h2>
+					<p>1. HTML - "Hyper Text Markup Language"; affects structure and order of elements</p>
+					<p>2. CSS - "Cascading Style Sheets"; affects style of elements</p>
+					<p>3. JavaScript - A programming language that affects the behavior of elements</p>
+					<p>Let's assign a behavior to the nav bar using raw JavaScript...</p>
+				</section>
+
+				<section>
+					<h2>Your turn!</h2>
+					<p>Let's type out that "rule" together</p>
+					<p>Refresh the page to reset your "rules"</p>
+					<p>See if you can use the inspector and modify the JavaScript to do the same thing but for the "Sign Up" button</p>
+					<p>Bonus: Prevent the page from "submitting" too (you'll need to Google this one)</p>
+				</section>
+
+
+				<section>
+					<h2>Backend vs. Frontend development and languages</h2>
+					<ul>
+						
+						<li class="fragment">Front-end language: client/browser side code - HTML/CSS/JS</li>
+						<li class="fragment">Back-end languages: code that runs on the server - Ruby/PHP/Python</li>
+						<li class="fragment">What does "full-stack" mean?</li>
+					</ul>
+
+
+				</section>
+
+
+				<section>
+					<h2>Server-side vs. Client-Side</h2>
+					<p>Server-side languages control what pages, information is <strong>served</strong> to the client.</p>
+
+					<p class="fragment">Client-side languages are responsible for displaying information and aesthetics to the user.</p>
+
+					<p class="fragment">Each side's programming, refers to code which runs at the specific machine, the server's or the client's.</p>
+				</section>
+
 
 					<!--  -->
 
 				<section>
-					<h2>Let's practice with Google.com:</h2>
-					<ol>
-						<li>In the browser, go to google.com.</li>
-						<li class='fragment'>Then, search for "general assembly".</li>
+					<h2>What about when you send info in a form?</h2>
+						<li>Let's practice with Google.com</li>
+						<li>In the browser, go to google.com</li>
+						<li class='fragment'>Then, search for "general assembly"</li>
 					</ol>
 				</section>
 
@@ -381,6 +433,11 @@
 						<p>What do you notice about the URL after you searched?</p>
 						<img src="https://i.imgur.com/gdrRBSI.png" class="fragment">
 
+				</section>
+
+				<section>
+					<h2>Databases</h2>
+						<p>Where do they fit in?</p>
 				</section>
 
 
@@ -396,27 +453,6 @@
 
 				<!--  -->
 
-				<section>
-					<h2>Backend vs. Frontend development and languages</h2>
-					<ul>
-						<li>Full-stack development: applications built for the web</li>
-						<li class="fragment">Front-end language: client/browser side code - HTML/CSS/JS</li>
-						<li class="fragment">Back-end languages: code that runs on the server - Ruby/PHP/Python</li>
-					</ul>
-
-					<p class="fragment">Let's draw it in our diagram</p>
-
-				</section>
-
-
-				<section>
-					<h2>Server-side vs. Client-Side</h2>
-					<p>Server-side languages control what pages, information is <strong>served</strong> to the client.</p>
-
-					<p class="fragment">Client-side languages are responsible for displaying information and aesthetics to the user.</p>
-
-					<p class="fragment">Each side's programming, refers to code which runs at the specific machine, the server's or the client's.</p>
-				</section>
 
 				<section>
 					<h2>In plain ol' English:</h2>
@@ -430,20 +466,21 @@
 				<!--  -->
 
 				<section>
-					<h2>Objectives: How the internet works</h2>
-						<p>Describe how clients work with servers to deliver information.</p>
+					<h2>Objectives: Describe how clients work with servers to deliver information.</h2>
+					<p>With a partner, describe how clients work with hosts to deliver information on the web.  Use this vocabulary: host, server, browser, HTML, URL, request, HTTP, response, CSS, JavaScript,  client, initiates, format</p> 
+					</section>
 				</section>
 
 
 				<section>
-					<img src="http://img3.wikia.nocookie.net/__cb20130323203035/degrassi/images/f/f0/We_were_on_a_break.gif">
+					<img src="http://memeshappen.com/media/created/-TAKE-A-BREAK-meme-47990.jpg">
 				</section>
 
 				<!-- PART 2:  -->
 
 				<section>
 					<h2>Objectives: The command line</h2>
-						<p>Navigate files and folders using the terminal</p>
+						<p>Navigate files and folders using the terminal (or Git Bash)</p>
 				</section>
 
 				<!--  -->
@@ -454,26 +491,15 @@
 					<p class="fragment">Let's look to the diagram...</p>
 				</section> -->
 
-				<!--  -->
-
-				<section>
-					<h2>Since we're big time developers</h2>
-
-						<p>Be efficient</p>
-							<ul>
-								<li>Use the keyboard, terminal (command line) as much as humanly possible</li>
-							</ul>
 
 
-					<img class='fragment' src="https://i.imgur.com/T7Sgfzb.png">
-				</section>
 
 				<!--  -->
 
 				<section>
 					<h2>The Command Line</h2>
 					<ul>
-						<li>You speak to your operating system through your command line with via Unix commands</li>
+						<li>You speak to your operating system through your command line with UNIX commands</li>
 						<li>You can do anything you could do in finder in the command line...but faster</li>
 						<li>All the capabilities of a GUI but without clicking</li>
 						<li>"Directory" = "Folder"</li>
@@ -485,8 +511,8 @@
 
 				<section>
 					<h2>Why use the command line?</h2>
-					<p>What about an mp3? Open with iTunes</p>
-					<p class="fragment">If we want to run a ruby file (.rb) we have to run it using the terminal program</p>
+					<p>Want to execute an mp3 file? Need to use iTunes</p>
+					<p class="fragment">Want to run a file with code? We have to run it using the terminal program</p>
 					<p class="fragment">Watch, real quick...</p>
 
 					<pre class="fragment"><code>~/workshop-resources/secret_number/jay_nappy</code></pre>
@@ -502,10 +528,7 @@
 							<li>"Functions" ~ "Commands" ~ "Methods"</li>
 							<li>"Parameters" ~ "Input" ~ "Arguments"</li>
 							<li class="fragment">Parameters represent information or data you give to a function</li>
-							<li class="fragment">Example: f(x) = 2x + 4</li>
-							<li class="fragment">Sometimes, functions don't accept parameters</li>
-
-							<p class="fragment">What happens if we do f(3)?</p>
+							<li class="fragment">And sometimes, functions don't accept parameters</li>
 
 						</ul>
 
@@ -522,23 +545,6 @@
 					<p class="fragment">Then, open your Finder or My Computer to look at your OS through a different interface.</p>
 				</section>
 
-				<section>
-					<h2>Since we're big time developers</h2>
-
-						<p>Leverage the web: Google, StackOverflow, GitHub</p>
-							<ul>
-								<li>There is a "right" way to Google</li>
-								<li class="fragment">Let's figure out how to list out files and folders in the command line</li>
-							</ul>
-						
-
-					<img class='fragment' src="https://i.imgur.com/T7Sgfzb.png">
-				</section>
-
-				<section>
-					<h2>Framework for Googling</h2>
-					<p>Problem/Error + Language/Tech/Framework</p>
-				</section>
 
 				<section>
 					<h2>Terminal Commands Demo</h2>
@@ -548,22 +554,29 @@
 					<pre><code>pwd // Print working directory</code></pre>
 					
 					<pre><code>ls // List the contents of the directory</code></pre>
+
+					<pre><code>mkdir // Create a new folder</code></pre>
 					
 					<pre><code>cd // Change directories</code></pre>
-					
-					<pre><code>mkdir // Create a new folder</code></pre>
+					 
+					<pre><code>touch // Create an empty file</code></pre> 
+
+					<pre><code>rm // Remove a file</code></pre>
 
 
 				</section>
 
-				<!--  -->
-
 				<section>
-					<h2>Terminal Commands Demo</h2>
-							<pre><code>rmdir // Remove an empty folder</code></pre> 
-							<pre><code>touch // Create an empty file</code></pre> 
-							<pre><code>rm // Remove a file</code></pre> 
-							<pre><code>cp // Copy a file</code></pre> 
+					<h2>Since we're big time developers</h2>
+
+						<p>Leverage the web: Google, StackOverflow, GitHub</p>
+							<ul>
+								<li>There is a "right" way to Google</li>
+								<li>Framework: Problem/Error + Language/Tech/Framework</li>
+								<li class="fragment">Figure out how to remove a folder we just created.  Then figure out how to copy a file.</li>
+							</ul>
+						
+
 				</section>
 
 				<!--  -->
@@ -574,9 +587,22 @@
 						<pre><code>cd .. // Move up one directory</code></pre>
 						<pre><code>cd // Move to the top-most, or "root", directory</code></pre>
 
-
 				</section>
 
+
+				<section>
+					<h2>Since we're big time developers</h2>
+
+						<p>Be efficient!  Let's practice some keyboard shortcuts.</p>
+							<ul>
+								<li>Tab</li>
+								<li>Up/Down Arrows</li>
+								<li>Switching Active Programs</li>
+							</ul>
+
+
+					<img class='fragment' src="https://i.imgur.com/T7Sgfzb.png">
+				</section>
 				<!--  -->
 
 				<section>
@@ -650,14 +676,15 @@
 				</section>
 
 				<section>
-					<h2>Now, with a partner:</h2>
-					<p>Use the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN docs</a></p>
+					<h2>Using the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN docs</a>:</h2>
 					<ul>
-						<li>Insert a professional image of you ('img' tag); make it right after your 'h1' tags</li>	
-						<li>Insert an ordered list of your last three positions ('ul' tag)</li>
+						<li>Create a file in your Documents folder - "index.html"</li>
+						<li>Insert an 'h1' tag with your name</li>
+						<li>Insert a professional image ('img' tag)</li>
+						<li>Insert an unordered list of your last three positions ('ul' tag)</li>
 						<li>Link out to your LinkedIn and Facebook/Twitter pages ('a' tag)</li>
-						<li>Bonus: Insert your favorite YouTube video ('iframe' tag)</li>
-						<li>Bonus: Insert a table with your contact info (`table` tag)</li>
+						<li>Bonus: Make your LinkedIn/FB/Twitter links have their own line</li>
+						<li>Bonus: Add an "Email Me" link that opens up an email, with your email as the recipient, when it's clicked</li>
 					</ul>
 				</section>
 
@@ -683,8 +710,9 @@
 
 				<section>
 					<h2>Let's apply some styles</h2>
-					<p>Center the 'h1' tags</p>
-					<p>Center the 'p' tags</p>
+					<p>First, replace the ul with p tags</p>
+					<p class="fragment">Center the 'h1' tags</p>
+					<p class="fragment">Center the 'p' tags</p>
 					<p class="fragment">What's the problem here?</p>
 				</section>
 
@@ -700,15 +728,14 @@
 				</section>
 
 				<section>
-					<p>Now, with a partner, use the <a href="https://developer.mozilla.org/en-US/docs/Web/css">MDN docs</a></p>
+					<p>Use the <a href="https://developer.mozilla.org/en-US/docs/Web/css">MDN docs</a> or the Google framework:</p>
 					<ul>
-						<li>Give the image a 1px black border</li>	
+						<li>Give your image a 2px black border</li>	
 						<li>Make the image sit on the right side of the page and make it a reasonable size</li>
 						<li>Give the body of the page a thicker border than the picture but only on the top and bottom of the page</li>
-						<li>Using HTML, insert a short title above your p tags; use an h3 tag</li>
-						<li>Make your name an h1 and h3 tags uppercase using CSS</li>
-						<li>Make the background of the page a shade of gray</li>
-						<li>Insert two horizontal lines (these are HTML elements!) - one below your name and one below your "blurb" - make it take up only 70% of the page</li>
+						<li>Make your name uppercase using CSS</li>
+						<li>Make the background of the page a very light shade of gray</li>
+						<li>Insert two horizontal lines (these are HTML elements!) - one below your name and one below your three paragraphs - make it take up only 70% of the page</li>
 					</ul>
 				</section>
 
@@ -729,11 +756,10 @@
 					<p>Use the <a href="https://developer.mozilla.org/en-US/docs/Web/css">MDN docs</a></p>
 					<ul>
 						
-						<li>Create a nav bar with the links to your LinkedIn, Twitter; also create a link to the 'index.html' page, and a link to a file called "projects.html" </li>	
+						<li>Create a nav bar and your LinkedIn, Twitter to it; also create a link to the 'index.html' page, and a link to a file called "projects.html" </li>	
 						<li>Create another html file in the project called 'projects.html'; copy the contents of the nav bar and information in the 'head' tag</li>
 						<li>In 'projects.html', create three columns: each column should contain the title and a description of your three most recent, successful projects</li>
 						<li>Insert another image of you, but make it round</li>
-						<li>Bonus: Insert a button on both pages with the same style (use classes) that links to opening an email to your email address</li>
 					</ul>
 				</section>
 				
@@ -763,8 +789,7 @@
 					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDSYNiK9LZNmljFVhMlqt0nPVir1ttyM0xzwh59EMfZL-SAn-iEyS2yPw">
 					<ul>
 						<li>Code manager or "version control software"</li>
-						<li>It's super smart</li>
-						<li>The real benefit is when you're working in teams...but let's ignore that for now</li>
+
 					</ul>
 				</section>
 
@@ -864,17 +889,17 @@
 
 				<section>
 					<h2>Get Familiar with GitHub!</h2>
-						<p>https://github.com/ryanb/cancan</p>
+						<p>https://github.com/dirtycow/dirtycow.github.io</p>
 						<ul>
-							<li>What version are they up to?</li>
-							<li>Which user is the second-greatest contributor to this repository?</li>
-							<li>How many commits were made on September 6th, 2013?</li>
-							<li>On the January 20, 2013 commit:</li>
+							<li>How many versions have been created in this repository?</li>
+							<li>Which user is the greatest contributor to this repository?</li>
+							<li>How many times has this repo been "forked"? How many people are "watching" it?</li>
+							<li>On the third all-time commit:</li>
 							<ul>
 								<li>How many files were modified? </li>
 								<li>How many lines were added? </li>
 								<li>How many lines were deleted? </li>
-								<li>What are the names of the files that were modified?</li>
+								<li>What is the name of the file that was modified?</li>
 							</ul>
 
 						</ul>
@@ -938,15 +963,13 @@
 						<li>Created by "Matz" in the mid-90s</li>
 						<li>Written in C</li>
 						<li>Dynamic scripting language</li>
-						<li>Memory is managed for you</li>
-						<li>Object oriented, <strong>fun</strong></li>
 					</ul>
 				</section>
 
 				<!--  -->
 
 				<section>
-					<h2>Before we can do any web stuff</h2>
+					<h2>Before we can build a web application</h2>
 					<ul>
 						<li>We need to understand Ruby</li>
 						<li>First step in order to build any website</li>
@@ -960,6 +983,7 @@
 					<ul>
 						<li>Creating an interactive Ruby terminal:</li>
 						<img src="picture_2.png">
+						<li class="fragment">How is this different than the regular terminal?  Is this UNIX?</li>
 					</ul>
 				</section>
 
@@ -969,25 +993,21 @@
 					<h2>Data Types</h2>
 					<ul>
 						<li>Now that we're able to write ruby, we <strong>must</strong> understand that everything in ruby is an object.</li>
-						<li>Every object has a "type" or "class":</li>
-						<p class="fragment">An object is a software bundle of related state and behavior. Software objects are often used to model the real-world objects that you find in everyday life.</p>
+						<li>All objects are created from an "blue print":</li>
+						<p class="fragment">An object is a software bundle of related state and behavior - a "blue print". Software objects are often used to model the real-world objects that you find in everyday life.</p>
 					</ul>
-					<p class="fragment">Practice the next few slides with me!</p>
+					<p class="fragment">Think about a "video game character" object...</p>
 				</section>
 
 				<!--  -->
 
-				<section>
-					<h2>Objects</h2>
-					<img src="http://italian--course.com/ar/wp-content/uploads/2012/03/47.jpg">
-					<p class="fragment">Let's jump into Krossover's objects...</p>
-				</section>
+				
 
 				<section>
 					<h2>Data Types: Strings</h2>
 					<ul>
 						<li>any kind of text</li>
-						<li>donated by single or double quotes</li>
+						<li>donated by single or double quotes...let's stick with double, for now!</li>
 					</ul>
 					<br>
 					<img src="picture_4.png">
@@ -1019,10 +1039,6 @@
 
 				<!--  -->
 
-				<section>
-					<h2>Discuss</h2>
-					<p>How could data work with variables in req/resp?</p>
-				</section>
 
 				<!--  -->
 
@@ -1042,7 +1058,7 @@
 
 				<section>
 					<h2>Puts</h2>
-					<p>Puts is a method that Ruby "gives you for free". It stands for "PUT" "String", out to the terminal: </p>
+					<p>Puts is a method that Ruby "gives you for free". It stands for "PUT" "String" or show a string to the terminal: </p>
 					<img src="picture_12.png">
 					<p>Puts always returns 'nil'</p>
 				</section>
@@ -1055,6 +1071,13 @@
 					<img src="picture_13.png">
 					<p class="fragment">What's that \n? It's newline (the user hitting enter)</p>
 					<img src="picture_14.png" class="fragment">
+				</section>
+
+				<section>
+					<h2>Let's create a file</h2>
+					<li>In the file, create a variable with data and then show the information in the variable with "puts"</li>
+					<li class="fragment">Erase the code and re-write code that poses a question, accepts input, and then show what was entered.</li>
+					<li class="fragment">Refactor the code so that instead of showing what was entered, the OS "reads" what was entered</li>
 				</section>
 
 				<!--  -->
@@ -1081,13 +1104,13 @@
 						<p>In Ruby, you would write f(x) = x + 2 like: </p>
 						<img src="picture_16.png">
 					</ul>
-					<p>All methods, in Ruby, start with 'def'</p>
+					<p>All functions, in Ruby, start with 'def'</p>
 				</section>
 
 				<!--  -->
 
 				<section>
-					<h2>Calling Methods</h2>
+					<h2>Calling Functions</h2>
 					<p>You call a function exactly the same (as you would in math!)</p>
 					<img src="picture_17.png">
 				</section>
@@ -1095,7 +1118,7 @@
 				<!--  -->
 
 				<section>
-					<h2>Methods</h2>
+					<h2>Functions</h2>
 					<p>And remember, they can accept parameters</p>
 					<img src="picture_18.png">
 				</section>
@@ -1103,14 +1126,26 @@
 				<!--  -->
 
 				<section>
-					<h2>Let's practice together!</h2>
-					<p>Create a method that replaces every "e" in a word with "z"</p>
-					<p>Then, call the method with the word "Excellenet"</p>
+					<h2>Let's practice together from pry</h2>
+					<p>Create a function that combines two strings. Then, we'll call it with different values.</p>
 				</section>
 
 				<section>
+					<h2>From a file, let's build madlibs</h2>
+					<p>I'll give you the specs.  Work with a partner to "pseudocode" it.</p>
+					<ul>
+						<li>Welcome the user to the game.</li>
+						<li>Ask for three words: a noun, adjective, and a verb</li>
+						<li>Print a random string to the screen using a function that combines those words into a random string.</li>
+					</ul>
+					<p>After, we'll review together and code it!</p>
+				</section>
+
+<!-- JAY LOOK HERE -->
+
+				<section>
 					<h2>Key Idea: Return Value</h2>
-					<p>In Ruby, this is what is given back to you after you run a command and call/store a variable, or execute a function</p>
+					<p>In Ruby, this is what is given back to you after you run a function and call/store a variable, or execute a function</p>
 					<p>Let's look at some examples in pry</p>
 
 				</section>
@@ -1151,7 +1186,7 @@
 				<section>
 					<ul>
 					<h2 class="fragment">Your turn!</h2>
-						<li class="fragment">"Fork" the methods exercise (story-likes), so you have a copy of it on GitHub</li>
+						<li class="fragment">"Fork" the functions exercise (story-likes), so you have a copy of it on GitHub</li>
 						<li class="fragment">Then "clone" that GitHub repository</li>
 						<pre class="fragment"><code>git clone YOUR_URL@github.com</code></pre>
 						<li class="fragment">Now, move into that project (folder) and open it to start working!</li>
@@ -1285,7 +1320,7 @@
 				</section>
 
 
-				<section>
+				<!-- <section>
 					<h2>Loops: Continue doing stuff...over and over...</h2>
 					<p>While</p>
 					<img src="while.png">
@@ -1302,7 +1337,7 @@
 					<p>Watch mi!!</p>
 					<p>Let's make a SPAM message until I enter "unsubscribe"</p>
 					<p>(Jay, Lesson 2 slide 25)</p>
-					<p class="fragment">Let's make an Identification method that doesn't let you drink until you're twenty one</p>
+					<p class="fragment">Let's make an Identification function that doesn't let you drink until you're twenty one</p>
 				</section>
 
 				<section>
@@ -1315,12 +1350,12 @@
 					<h2>See you soon!!</h2>
 					<img src="http://memecrunch.com/meme/5YSY5/lunch-time/image.jpg?w=817&c=1">
 				</section>
-
+ -->
 
 				<section>
 					<h2>Data Collections</h2>
-					<p>Let's think back to KrossoverKredit Objects...</p>
-					<p>Data about an object is a collection of attributes, some of which have other attributes!</p>
+					<p>Let's look at a datatable from Krossover's test servers.</p>
+					<p>Data about an object is a collection of attributes, or types of data!</p>
 				</section>
 
 				<section>
@@ -1374,25 +1409,20 @@
 					<p>We can "iterate" over them!</p>
 					<p>read: "we can do something to each element in a collections of data"</p>
 					<ul>
-						<li>To the whiteboard: Let's take an array of names and check to see if the letter 'j' is in each element of the array</li>
+						<li>To the whiteboard: Let's take an array of names and print out the reverse of each element.</li>
 					</ul>
 				</section>
 
 				<section>
 					<h2>Your turn!</h2>
-					<p>Create an array of your own names and for each item in the array, replace the the letter 'e' with a different letter</p>
+					<p>Create a file with an array of your name of 5 members of your family.  Using ".each" iterate through each item in the array and use the ".prepend" method to add a "$" to the beginning of each string.</p>
 				</section>
 
 				<section>
 					<h2>Arrays within arrays</h2>
 					<pre><code>sign_ins = [["jpnappy@gmail.com", "3:02pm"], ["tylernappy@gmail.com", "3:03pm"], ["rob@gmail.com", "3:05pm"], ["lorit@gmail.com", "3:06pm"], ["laura@gmail.com", "3:07pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["jpnappy@gmail.com", "3:02pm"], ["dan@gmail.com", "3:05pm"]</code></pre>
-					<p class="fragment">Let's look at this in a text editor</p>
+					<p class="fragment">Let's look at this in a text editor and write code that prints out each of the sign-in times</p>
 					<p class="fragment">You're turn: Iterate over each of the sign_ins and print out each of the user's email addresses</p>
-				</section>
-
-				<section>
-					<h2>Your turn!</h2>
-					<p>Create an array of your own names and replace the a vowel with a different letter</p>
 				</section>
 
 				<section>
